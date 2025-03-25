@@ -1,16 +1,35 @@
-# 🎆 Diwali Sales Analysis  
+# 🗳️ Delhi Assembly Election 2025 Analysis  
 
-Analyze Diwali sales data to uncover insights into customer behavior, sales patterns, and product trends using Python libraries.
+An interactive Power BI dashboard analyzing the Delhi Assembly Election 2025, providing insights into party performance, voter turnout, and constituency-level results.  
 
 ---
 
 ## 🔧 Technologies Used  
-- **Data Analysis:** NumPy, Pandas  
-- **Data Visualization:** Matplotlib, Seaborn  
+- **Data Analysis & Visualization:** Power BI  
+- **Data Processing:** Excel, SQL  
+
 ---
 
 ## 📊 **Key Insights**  
-- **Customer Insights:** Female customers contributed ₹74.34M (19,548 orders), while males contributed ₹31.91M (8,433 orders).  
-- **Age Group Insights:** 26-35 age group led with ₹42.61M in sales (11,395 orders).  
-- **Regional Insights:** Central zone topped with ₹41.60M (10,623 orders).  
-- **Top States:** Uttar Pradesh contributed ₹19.38M in sales.  
+
+### 📌 **Page 1: Party Performance**  
+- BJP won **48 seats**, while AAP secured **22 seats**.  
+- A **pie chart** displays the **party-wise vote share** in percentage.  
+
+### 🗳️ **Page 2: Voting Overview**  
+- Shows **total votes**, **total EVM votes**, **total postal votes**, and **NOTA votes**.  
+- Highlights the **top party by vote share**.  
+- A **filter option** allows selecting a party to view its complete vote distribution.  
+
+### 📍 **Page 3: Constituency-Wise Performance**  
+- Selecting a **constituency** displays:  
+  - **Total votes** in that constituency  
+  - **Total EVM votes** & **Total postal votes**  
+  - **Winner, runner-up, and second runner-up** in that constituency  
+
+### 👤 **Page 4: Candidate Performance**  
+- Selecting a **constituency** reveals the **performance of all candidates** in that area.  
+
+---
+
+🚀 This dashboard provides a **comprehensive analysis** of the Delhi Assembly Election 2025, helping to explore key election trends and insights interactively.  
